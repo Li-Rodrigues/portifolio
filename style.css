@@ -1,0 +1,240 @@
+/* 1. CONFIGURAÇÕES GERAIS E DARK MODE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; /* Rolagem suave ao clicar nos links */
+}
+
+body {
+    background-color: #0f172a; /* Fundo azul marinho muito escuro */
+    color: #f1f5f9;           /* Texto claro para contraste */
+    line-height: 1.6;
+}
+
+/* 2. CABEÇALHO (NAVBAR) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #1e293b; /* Fundo levemente mais claro que o body */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #334155;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #38bdf8; /* Azul destaque */
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #cbd5e1;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* 3. ESTRUTURA PRINCIPAL (GRID) */
+.main-container {
+    display: grid;
+    grid-template-columns: 380px 1fr; /* Largura da sidebar ajustada */
+    min-height: 100vh;
+}
+
+/* SEÇÃO SOBRE (SIDEBAR) */
+.sidebar {
+    background-color: #1e293b;
+    padding: 80px 40px;
+    border-right: 1px solid #334155;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Força altura para o link funcionar */
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #334155;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 25px;
+}
+
+.bio h1 {
+    font-size: 1.8rem;
+    color: #f8fafc;
+    margin-bottom: 15px;
+}
+
+.bio p {
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+/* BOTÕES SOCIAIS */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.linkedin { background-color: #0077b5; color: white; }
+.github { background-color: #0f172a; color: white; border: 1px solid #334155; }
+.btn:hover { transform: translateY(-3px); opacity: 0.9; }
+
+/* 4. SEÇÃO DE PROJETOS (CONTEÚDO DIREITO) */
+.content {
+    padding: 80px 50px;
+    background-color: #0f172a;
+    min-height: 100vh; /* Garante que haja espaço para rolar */
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #f1f5f9;
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+
+.projects-grid {
+    display: grid;
+    /* Aumentei para 320px para os cards não ficarem apertados */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+}
+
+/* CARDS DOS PROJETOS */
+.card {
+    background: #1e293b;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #38bdf8;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-content {
+    padding: 30px; /* Mais respiro para o texto interno */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-content h3 {
+    margin-bottom: 15px;
+    color: #38bdf8;
+    font-size: 1.3rem;
+}
+
+.card-content p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.link-projeto {
+    text-decoration: none;
+    color: #38bdf8;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+/* 5. SEÇÃO DE CONTATO */
+.contact-section {
+    padding: 100px 20px;
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    border-top: 1px solid #334155;
+}
+
+.btn-email {
+    display: inline-block;
+    background-color: #10b981; /* Verde esmeralda */
+    color: white;
+    padding: 16px 45px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+.btn-email:hover {
+    background-color: #059669;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+/* 6. RODAPÉ */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #020617;
+    color: #64748b;
+    font-size: 0.85rem;
+}
+
+/* RESPONSIVIDADE (CELULAR) */
+@media (max-width: 900px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #334155;
+        min-height: auto; /* No celular não precisa ser tão grande */
+    }
+
+    .nav-links {
+        display: none; /* Opcional: esconder menu em telas muito pequenas */
+    }
+}
