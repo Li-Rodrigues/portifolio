@@ -1,7 +1,8 @@
 <div align="center"> 
-<h1> Portifolio - Descrição Profissional / Professional description </h1> 
+<h1> Portifolio - Descrição Profissional / Professional Description </h1> 
 <img src="medias/images/portifolio_main_page.png" width="400px" alt="Portifolio Logo" /> 
 </div> 
+
 --- 
 
 # Portifolio
@@ -11,8 +12,8 @@
 ---
 
 # Tecnologias Utilizadas (Used Technologies on this project):
- 🔹 **HTML5** (Estrutura / Structure) *
- 🔹 **CSS3** (Estilização / Style) *
+ 🔹 **HTML5** (Estrutura / Structure)
+ 🔹 **CSS3** (Estilização / Style)
 
 ---
 
