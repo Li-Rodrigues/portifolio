@@ -36,7 +36,8 @@ O **portifólio** foi desenvolvido como uma plataforma experimental para:
 
 O projeto prioriza simplicidade e responsividade para facilitar experimentação e acesso.
 
-*EN: Project Objectives*
+
+*EN: Project Objectives:*
 
 *The **portifolio** was developed as an experimental platform for:*
 
@@ -57,7 +58,9 @@ O uso, modificação e redistribuição são permitidos livremente **desde que a
 
 Remover ou ocultar a autoria original é expressamente proibido. Caso a autoria seja removida, **você não tem permissão para usar este código em nenhuma forma**.
 
-*EN: Licence*
+
+*EN: Licence:*
+
 *This project was created for educational and software training purposes.*
 
 *Use, modification, and redistribution are freely permitted **provided that the original authorship is maintained**.*
