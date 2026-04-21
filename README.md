@@ -1,7 +1,7 @@
 <div align="center"> 
   <h1>Portifólio - Descrição Profissional</h1> 
   <p><em>Professional Description</em></p>
-  <img src="medias/images/portifolio_main_page.png" width="400px" alt="Portifolio Logo" /> 
+  <img src="medias/images/portifolio_second_image.png" width="400px" alt="Portifolio Logo" /> 
 </div> 
 
 ---
@@ -36,7 +36,8 @@ O **portifólio** foi desenvolvido como uma plataforma experimental para:
 
 O projeto prioriza simplicidade e responsividade para facilitar experimentação e acesso.
 
-*EN:*  
+*EN: Project Objectives*
+
 *The **portifolio** was developed as an experimental platform for:*
 
 - *web application development*  
@@ -56,7 +57,7 @@ O uso, modificação e redistribuição são permitidos livremente **desde que a
 
 Remover ou ocultar a autoria original é expressamente proibido. Caso a autoria seja removida, **você não tem permissão para usar este código em nenhuma forma**.
 
-*EN:*  
+*EN: Licence*
 *This project was created for educational and software training purposes.*
 
 *Use, modification, and redistribution are freely permitted **provided that the original authorship is maintained**.*
