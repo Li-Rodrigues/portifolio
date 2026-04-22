@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 70px;
 }
 
 body {
@@ -21,14 +22,16 @@ body {
 section {
     min-height: 100vh;
     width: 100%;
-    padding: 120px 20px;
-    scroll-margin-top: 80px;
+    padding: 60px 20px;
+    scroll-margin-top: 90px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
 }
 
 /* 3. ANIMAÇÃO */
@@ -111,9 +114,7 @@ section {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
     text-align: center;
 }
 
@@ -132,6 +133,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .bio h1 {
@@ -187,9 +189,10 @@ section {
 }
 
 .section-title {
+    text-align: center;
     font-size: 2.4rem;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: #f1f5f9;
 }
 
@@ -199,6 +202,15 @@ section {
     gap: 30px;
     width: 100%;
     max-width: 1100px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#projetos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* 7. CARDS */
@@ -211,6 +223,8 @@ section {
     overflow: hidden;
     transition: 0.3s;
     text-align: left;
+    width: 100%;
+    max-width: 350px;
 }
 
 .card:hover {
@@ -257,8 +271,11 @@ section {
 
 /* 8. CONTATO */
 
-.contact-section {
-    background-color: #020617;
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-email {
