@@ -22,15 +22,14 @@ body {
 section {
     min-height: 100vh;
     width: 100%;
-    padding: 60px 20px;
-    scroll-margin-top: 90px;
+    padding: 80px 20px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-
     justify-content: flex-start;
-    overflow: hidden;
+
+    overflow: visible;
     position: relative;
 }
 
@@ -182,7 +181,7 @@ section {
     opacity: 0.9;
 }
 
-/* 6. PROJETOS */
+/* 7. PROJETOS */
 
 .content {
     background: #0f172a;
@@ -208,12 +207,9 @@ section {
 
 #projetos {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-/* 7. CARDS */
+/* 8. CARDS */
 
 .card {
     background: #020617;
@@ -269,7 +265,7 @@ section {
     font-weight: bold;
 }
 
-/* 8. CONTATO */
+/* 9. CONTATO */
 
 .contact-container {
     display: flex;
@@ -295,7 +291,7 @@ section {
     transform: scale(1.05);
 }
 
-/* 9. FOOTER - FINAL DA TELA */
+/* 10. FOOTER - FINAL DA TELA */
 
 footer {
     text-align: center;
@@ -306,7 +302,7 @@ footer {
     font-size: 0.85rem;
 }
 
-/* 10. CARÁTER RESPONSIVO - TELAS MENORES */
+/* 11. CARÁTER RESPONSIVO - TELAS MENORES */
 
 @media (max-width: 900px) {
     .nav-links {

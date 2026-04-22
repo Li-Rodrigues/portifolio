@@ -7,12 +7,11 @@
 <p align="center">
   <a href="https://li-rodrigues.github.io/portifolio/">
     <img src="https://img.shields.io/badge/Acessar%20Projeto-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="Acessar Projeto">
-  </a>
+  </a>&nbsp;&nbsp;
   <a href="https://li-rodrigues.github.io/portifolio/">
     <img src="https://img.shields.io/badge/Live%20Demo-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo">
   </a>
 </p>
-
 
 ---
 
