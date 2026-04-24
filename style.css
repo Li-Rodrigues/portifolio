@@ -8,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 80px;
+    scroll-padding-top: 40px;
 }
 
 body {
@@ -18,20 +18,25 @@ body {
     overflow-x: hidden;
 }
 
+
 /* 2. SEÇÕES GERAIS */
 
 section {
     display: block;
+    min-height: 100vh;
     width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+    background-color: #0f172a;
+}
+
+.section-content {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 80px 20px 120px 20px;
-    min-height: 100vh;
-    height: auto;
-    position: relative;
-    clear: both;
-    overflow: visible;
+    padding: 0 20px;
 }
+
 
 /* 3. ANIMAÇÃO */
 
@@ -106,15 +111,17 @@ section {
 /* 5. SOBRE */
 
 .sidebar {
-    width: 100%;
-    
+    width: 100%;    
     background: linear-gradient(180deg, #1e293b, #0f172a);
-
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0;
+    margin-bottom: 0;
+
+    position: relative;
+    z-index: 1;
 }
 
 .avatar {
@@ -210,11 +217,8 @@ section {
 }
 
 #projetos {
-    width: 100%;
-    height: auto;
-    min-height: 100vh;
-    padding-bottom: 150px;
-    display: block;
+    padding-bottom: 120px;
+    display: block; 
 }
 
 /* 8. CARDS */
@@ -284,11 +288,24 @@ section {
 
 /* 9. CONTATO */
 
+#contato {
+    background-color: #020617;
+    border-top: 1px solid #1e293b;
+    padding: 150px 20px;
+    clear: both;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
 .contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .btn-email {
