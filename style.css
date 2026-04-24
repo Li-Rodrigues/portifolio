@@ -200,9 +200,9 @@ section {
     text-align: center;
     font-size: 2.4rem;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
     color: #f1f5f9;
-    scroll-margin-top: 40px;
 }
 
 .projects-grid {
