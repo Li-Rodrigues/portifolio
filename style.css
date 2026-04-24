@@ -8,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 40px;
+    scroll-padding-top: 60px;
 }
 
 body {
@@ -214,12 +214,9 @@ section {
     margin: 0 auto;
     justify-content: center;
     align-items: stretch;
+    margin-bottom: 40px;
 }
 
-#projetos {
-    padding-bottom: 120px;
-    display: block; 
-}
 
 /* 8. CARDS */
 
@@ -291,11 +288,9 @@ section {
 #contato {
     background-color: #020617;
     border-top: 1px solid #1e293b;
-    padding: 150px 20px;
-    clear: both;
+    padding: 102px 20px;
     width: 100%;
     display: flex;
-    min-height: 100vh;
     align-items: center;
 }
 
@@ -344,6 +339,6 @@ footer {
     }
 
     section {
-        padding: 80px 20px;
+        padding: 100px 20px;
     }
 }
