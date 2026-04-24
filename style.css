@@ -201,7 +201,6 @@ section {
     font-size: 2.4rem;
     font-weight: 700;
     margin-bottom: 40px;
-    margin-top: 20px;
     color: #f1f5f9;
 }
 
@@ -218,6 +217,10 @@ section {
     margin-bottom: 40px;
 }
 
+
+#projetos {
+    padding-top: 60px;
+}
 
 /* 8. CARDS */
 
