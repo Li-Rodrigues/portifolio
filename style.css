@@ -220,6 +220,13 @@ section {
 
 #projetos {
     padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#projetos .projects-grid {
+    margin-bottom: 0;
 }
 
 /* 8. CARDS */
