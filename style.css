@@ -298,6 +298,7 @@ section {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 80px;
 }
 
 .contact-container {
