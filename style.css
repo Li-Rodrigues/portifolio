@@ -223,9 +223,8 @@ section {
 
 
 #projetos {
-    min-height: auto;
     padding-top: 40px;
-    padding-bottom: 1200px;
+    padding-bottom: 120px;
 }
 
 #projetos .projects-grid {
