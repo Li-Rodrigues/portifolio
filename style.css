@@ -220,6 +220,7 @@ section {
 
 #projetos {
     padding-top: 60px;
+    padding-bottom: 80px;
 }
 
 /* 8. CARDS */
@@ -344,5 +345,12 @@ footer {
 
     section {
         padding: 100px 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .social-links {
+        flex-direction: row;
+        justify-content: center;
     }
 }
