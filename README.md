@@ -1,15 +1,15 @@
 <div align="center"> 
   <h1>Portifólio - Descrição Profissional</h1>
   <p><em>Professional Description</em></p>
-  <img src="medias/images/portifolio_second_image.png" width="400px" alt="Portifolio Logo" /> 
+  <img src="medias/images/portifolio_third_image.png" width="400px" alt="Portifolio Logo" /> 
 </div>
 
 <p align="center">
   <a href="https://li-rodrigues.github.io/portifolio/">
-    <img src="https://img.shields.io/badge/Acessar%20Projeto-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="Acessar Projeto">
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Acessar%20Projeto-38bdf8?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
   <a href="https://li-rodrigues.github.io/portifolio/">
-    <img src="https://img.shields.io/badge/Live%20Demo-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo">
+    <img src="https://img.shields.io/badge/Live%20Demo-38bdf8?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
